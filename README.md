@@ -9,7 +9,7 @@ The program is based on the liquid properties library `pyfluids`.
 
 Parameter values ​​are specified as a tuple. For secondary parameters, the calculated range is determined in the tuple.
 
-## Расчет калориметрической температуры горения топлива
+## Calorimetric fuel combustion temperature calculation
 
 ```python
 from combustion.combust import Combust
@@ -30,21 +30,21 @@ fuel = {
         'H2': (FluidsList.Hydrogen, .0, 10800000.),
         }
 
-# Расчет калориметрической температуры горения топлива
+# Calorimetric fuel combustion temperature calculation
 comb = Combust(fluid=fuel)
 temp = comb._burnTemp(k_alpha=1.3, temp_air=300, pressure=cst.atm)
-print(f"Калориметрическая температура горения топлива {temp:.0f} \u2103")
-print("Состав газа:\n", comb.gas)
+print(f"Calorimetric fuel combustion temperature {temp:.0f} \u2103")
+print("Gas composition:\n", comb.gas)
 ```
 
-# Расчет коэффициента избытка воздуха
+# Calculation of excess air coefficient
 ```python
 k_alpha = comb.burnAlpha(temp_gas=950, temp_air=300, pressure=cst.atm)
-print(f'Коэффициент избытка воздуха {k_alpha:0.3f}')
-print("Состав газа:\n", comb.gas)
+print(f'Excess air ratio {k_alpha:0.3f}')
+print("Gas composition:\n", comb.gas)
 ```
 
-# Построение графика зависимости калориметрической температуры от коэффициента избытка воздуха
+# Plotting a graph of the dependence of calorimetric temperature on the excess air coefficient
 ```python
 comb.tempAlphaPl(k_alpha=(2, 5))
 ```
@@ -53,4 +53,4 @@ comb.tempAlphaPl(k_alpha=(2, 5))
 Sergey Besedin,
 dr. of sc., prof.
 
-Konstantin Parfyonov, ingener
+Konstantin Parfyonov, engineer
