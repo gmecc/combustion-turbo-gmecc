@@ -61,6 +61,7 @@ print("Gas composition:\n", comb.gas)
 ```python
 comb.tempAlphaPl(k_alpha=(2, 5))
 ```
+![ ](temp-k_alpha.png)
 
 ## About the author
 Sergey Besedin, dr. of sc., prof.
