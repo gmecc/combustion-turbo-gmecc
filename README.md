@@ -36,4 +36,4 @@ comb.tempAlphaPl(k_alpha=(2, 5))
 Sergey Besedin,
 dr. of sc., prof.
 
-Konstantin Parfionov
+Konstantin Parfionov, ingener
