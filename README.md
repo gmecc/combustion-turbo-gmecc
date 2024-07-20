@@ -7,7 +7,11 @@ The program is based on the liquid properties library `pyfluids`.
 - temperature - degree Celsius _(°C)_;
 - absolute pressure _(Pa)_
 
-Parameter values ​​are specified as a tuple. For secondary parameters, the calculated range is determined in the tuple.
+## Variables
+- `fluid` - name of gas (class instance `FluidList`)
+- `mol_mass` - molar mass [kg/mol]
+- `mol` - mole fraction
+- `mass` - mass fraction
 
 ## Calorimetric fuel combustion temperature calculation
 
@@ -50,7 +54,6 @@ comb.tempAlphaPl(k_alpha=(2, 5))
 ```
 
 ## About the author
-Sergey Besedin,
-dr. of sc., prof.
+Sergey Besedin, dr. of sc., prof.
 
 Konstantin Parfyonov, engineer
