@@ -35,3 +35,5 @@ comb.tempAlphaPl(k_alpha=(2, 5))
 ## About the author
 Sergey Besedin,
 dr. of sc., prof.
+
+Konstantin Parfionov
