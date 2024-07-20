@@ -1,4 +1,4 @@
-# combustion-turbo-gmecc
+# Calculation of fuel combustion processes in the combustion chamber of a gas turbine engine
 Program for calculating the fuel combustion process in the combustion chambers of gas turbine plants
 
 The program is based on the liquid properties library `pyfluids`.
