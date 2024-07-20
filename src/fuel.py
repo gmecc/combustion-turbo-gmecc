@@ -8,12 +8,11 @@ Created on Sun Jan  7 10:38:03 2024
 import pandas as pd
 import numpy as np
 import sys
-from pyfluids import Fluid, FluidsList, Input
+from pyfluids import Fluid, FluidsList
 from scipy import constants as cst
 from scipy.optimize import root
 import matplotlib.pyplot as plt
-from scipy.optimize import fsolve
-import spHvol
+import src.spHvol
 
 pd.set_option('display.float_format', '{:.4f}'.format)
 pd.set_option('display.max_columns', None)

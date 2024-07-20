@@ -1,4 +1,4 @@
-from fuel import Combust
+from src.fuel import Combust
 from scipy import constants as cst
 from pyfluids import FluidsList
 
