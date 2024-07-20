@@ -13,6 +13,15 @@ The program is based on the liquid properties library `pyfluids`.
 - `mol` - mole fraction
 - `mass` - mass fraction
 
+## Initial data
+The fractional composition of the fuel is specified 
+in the form of a dictionary. Key - faction name (str). Properties tuple:
+- `fluid`
+- `mol`
+- volumetric heat of combustion at 0 deg. C [J/m3]
+
+
+
 ## Calorimetric fuel combustion temperature calculation
 
 ```python
