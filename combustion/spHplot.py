@@ -32,8 +32,8 @@ class spHvol_plot:
         for fluid in self.sph.columns:
             self.spHplot(fluid=fluid)
         
-        plt.xlabel('$T, ^\circ C$') 
-        plt.ylabel('$C_{p.mean}, Дж/(м3.К)$') 
+        plt.xlabel('$T, \u2103$')
+        plt.ylabel('$C_{p.mean}, Дж/(м3.К)$')
         plt.minorticks_on()
         plt.grid(linestyle='--', linewidth=0.5, color='black') # сетка
         plt.title('Средняя удельная объемная теплоемкость', loc='left')

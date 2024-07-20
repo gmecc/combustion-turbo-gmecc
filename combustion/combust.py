@@ -12,7 +12,7 @@ from pyfluids import Fluid, FluidsList
 from scipy import constants as cst
 from scipy.optimize import root
 import matplotlib.pyplot as plt
-import src.spHvol
+import combustion.spHvol
 
 pd.set_option('display.float_format', '{:.4f}'.format)
 pd.set_option('display.max_columns', None)
@@ -164,7 +164,7 @@ class Combust:
         plt.grid(linestyle='--', linewidth=0.5, color='black') # сетка
         # plt.title('title', loc='left')
         plt.tight_layout() # оптимизируем поля и расположение объектов
-        plt.savefig('temp-k_alpha', dpi = 300)
+        # plt.savefig('temp-k_alpha', dpi = 300)
         plt.show()
 
 
