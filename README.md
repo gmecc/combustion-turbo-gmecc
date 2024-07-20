@@ -1,8 +1,6 @@
 # combustion-turbo-gmecc
 Program for calculating the fuel combustion process in the combustion chambers of gas turbine plants
 
-# Calculation of sCO2 properties for the Brayton cycle
-
 The program is based on the liquid properties library `pyfluids`.
 
 ### Units
